@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'MVVM with Riverpod',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const UserScreen(), // or UserListScreen()
